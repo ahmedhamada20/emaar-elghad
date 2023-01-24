@@ -35,10 +35,10 @@
                             </div>
 
 
-                            <div class="col">
-                                <label> اسم الموقع بالغه الانجلزئيه</label>
-                                <input type="text" name="name_en" required value="{{$data->getTranslation('name','en')}}" class="form-control">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label> اسم الموقع بالغه الانجلزئيه</label>--}}
+{{--                                <input type="text" name="name_en" required value="{{$data->getTranslation('name','en')}}" class="form-control">--}}
+{{--                            </div>--}}
 
                             <div class="col">
                                 <label>البريد الالكتروني</label>
@@ -93,16 +93,16 @@
                         </div>
 
 
-                        <br>
+{{--                        <br>--}}
 
-                        <div class="row">
-                            <div class="col">
-                                <label>وصف الموقع بالانجليزي</label>
-                                <textarea name="notes_en" class="form-control" id="summernote2">
-                                  {{$data->getTranslation('notes','en')}}
-                                </textarea>
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>وصف الموقع بالانجليزي</label>--}}
+{{--                                <textarea name="notes_en" class="form-control" id="summernote2">--}}
+{{--                                  {{$data->getTranslation('notes','en')}}--}}
+{{--                                </textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
 
