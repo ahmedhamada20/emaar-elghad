@@ -33,11 +33,11 @@
                                        class="form-control @error('name') is-invalid @enderror">
                             </div>
 
-                            <div class="col">
-                                <label>الاسم بالغه الانجليزيه</label>
-                                <input type="text" name="name_en" required value="{{old('name')}}"
-                                       class="form-control @error('name') is-invalid @enderror">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label>الاسم بالغه الانجليزيه</label>--}}
+{{--                                <input type="text" name="name_en" required value="{{old('name')}}"--}}
+{{--                                       class="form-control @error('name') is-invalid @enderror">--}}
+{{--                            </div>--}}
                         </div>
 
                         <br>
@@ -84,14 +84,14 @@
                         <br>
 
 
-                        <div class="row">
-                            <div class="col">
-                                <label>الوصف بالغه الانجليزيه</label>
-                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>الوصف بالغه الانجليزيه</label>--}}
+{{--                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">--}}
 
-                                </textarea>
-                            </div>
-                        </div>
+{{--                                </textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
 
@@ -101,6 +101,7 @@
                         <div class="row">
                             <div class="col">
                                 <h5 class="text-danger">صوره الموقع</h5>
+                                <p class="text-danger">يجب ان يكون مقاس الصوره width: 1920px  height: 750px</p>
                                 <input type="file" name="cover" id="image_updload"  accept="image/*"
                                        class="file-input-overview">
                             </div>

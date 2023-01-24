@@ -36,11 +36,11 @@
                                        class="form-control @error('name') is-invalid @enderror">
                             </div>
 
-                            <div class="col">
-                                <label>الاسم بالغه الانجليزيه</label>
-                                <input type="text" name="name_en" value="{{$data->getTranslation('name','en')}}"
-                                       class="form-control @error('name') is-invalid @enderror">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label>الاسم بالغه الانجليزيه</label>--}}
+{{--                                <input type="text" name="name_en" value="{{$data->getTranslation('name','en')}}"--}}
+{{--                                       class="form-control @error('name') is-invalid @enderror">--}}
+{{--                            </div>--}}
                         </div>
 
 
@@ -54,17 +54,17 @@
                             </div>
                         </div>
 
-                        <br>
+{{--                        <br>--}}
 
 
-                        <div class="row">
-                            <div class="col">
-                                <label>الوصف بالغه الانجليزيه</label>
-                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">
-                            {{$data->getTranslation('notes','en')}}
-                                </textarea>
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>الوصف بالغه الانجليزيه</label>--}}
+{{--                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">--}}
+{{--                            {{$data->getTranslation('notes','en')}}--}}
+{{--                                </textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
                         <div class="row">
@@ -76,15 +76,15 @@
                             </div>
                         </div>
 
-                        <br>
+{{--                        <br>--}}
 
-                        <div class="row">
-                            <div class="col">
-                                <label>ملف </label>
-                                <input type="file" name="bdf" id="image_updload_bdf" multiple accept="application/pdf" class="file-input-overview">
-                                <input type="hidden" name="oldfile_dbf" value="{{$data->bdf->Filename ?? ''}}">
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>ملف </label>--}}
+{{--                                <input type="file" name="bdf" id="image_updload_bdf" multiple accept="application/pdf" class="file-input-overview">--}}
+{{--                                <input type="hidden" name="oldfile_dbf" value="{{$data->bdf->Filename ?? ''}}">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <br>
                         <div class="row">
                             <div class="col">

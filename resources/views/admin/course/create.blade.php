@@ -32,11 +32,11 @@
                                        class="form-control @error('name') is-invalid @enderror">
                             </div>
 
-                            <div class="col">
-                                <label>الاسم بالغه الانجليزيه</label>
-                                <input type="text" name="name_en" required value="{{old('name')}}"
-                                       class="form-control @error('name') is-invalid @enderror">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label>الاسم بالغه الانجليزيه</label>--}}
+{{--                                <input type="text" name="name_en" required value="{{old('name')}}"--}}
+{{--                                       class="form-control @error('name') is-invalid @enderror">--}}
+{{--                            </div>--}}
                         </div>
 
                         <br>
@@ -106,26 +106,26 @@
                         <br>
 
 
-                        <div class="row">
-                            <div class="col">
-                                <label>الوصف بالغه الانجليزيه</label>
-                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>الوصف بالغه الانجليزيه</label>--}}
+{{--                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">--}}
 
-                                </textarea>
-                            </div>
-                        </div>
-
-                        <br>
+{{--                                </textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
 
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="text-danger">ملف PDF</h5>
-                                <input type="file" name="bdf" id="image_updload_bdf" multiple accept="application/pdf"
-                                       class="file-input-overview">
-                            </div>
-                        </div>
+                        <br>
+
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <h5 class="text-danger">ملف PDF</h5>--}}
+{{--                                <input type="file" name="bdf" id="image_updload_bdf" multiple accept="application/pdf"--}}
+{{--                                       class="file-input-overview">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
 

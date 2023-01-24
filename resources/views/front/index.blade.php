@@ -14,7 +14,8 @@
         <div class="main-slider-carousel owl-carousel owl-theme">
 
             @foreach(SliderActive() as $data)
-            <div class="slide" style="background-image:url({{asset($data->image)}})">
+            <div class="slide" >
+                <img lass="slide" src="{{asset($data->image)}}"  width="1920px" height="750px" alt="">
                 <div class="auto-container">
                     <div class="content">
 

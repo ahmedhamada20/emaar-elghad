@@ -36,11 +36,11 @@
                                        class="form-control @error('name') is-invalid @enderror">
                             </div>
 
-                            <div class="col">
-                                <label>الاسم بالغه الانجليزيه</label>
-                                <input type="text" name="name_en" value="{{$data->getTranslation('name','en')}}"
-                                       class="form-control @error('name') is-invalid @enderror">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label>الاسم بالغه الانجليزيه</label>--}}
+{{--                                <input type="text" name="name_en" value="{{$data->getTranslation('name','en')}}"--}}
+{{--                                       class="form-control @error('name') is-invalid @enderror">--}}
+{{--                            </div>--}}
                         </div>
 
                         <br>
@@ -66,14 +66,14 @@
                         <br>
 
 
-                        <div class="row">
-                            <div class="col">
-                                <label>الوصف بالغه الانجليزيه</label>
-                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">
-                            {{$data->getTranslation('notes','en')}}
-                                </textarea>
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <label>الوصف بالغه الانجليزيه</label>--}}
+{{--                                <textarea class="form-control" name="notes_en" rows="5" id="summernote2">--}}
+{{--                            {{$data->getTranslation('notes','en')}}--}}
+{{--                                </textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <br>
 
@@ -88,6 +88,7 @@
                         <div class="row">
                             <div class="col">
                                 <label>صوره الموقع</label>
+                                <p class="text-danger">يجب ان يكون مقاس الصوره width: 1920px  height: 750px</p>
                                 <input type="file" name="cover" id="image_updload" multiple accept="image/*" class="file-input-overview">
                                 <input type="hidden" name="oldfile" value="{{$data->photo->Filename ?? ''}}">
                             </div>
