@@ -50,6 +50,8 @@
                             <h4  style="font-family: 'Cairo', sans-serif;">{{$data->price}}</h4>
                             <p>
 
+
+
                                 {!! Str::limit($data->notes, 6000) !!}
                             </p>
                         </div>
