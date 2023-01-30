@@ -23,25 +23,27 @@
     <!--About Section-->
     <section class="about-section">
         <div class="auto-container">
+
             <div class="row clearfix">
-
-                <!--Image Column-->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="image">
-                            <img src="{{asset(aboutsActive()->image)}}" alt="" />
-                        </div>
-                    </div>
+        <!--Image Column-->
+        <div class="image-column col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+            <div class="inner-column">
+                <div class="image">
+                    <img src="{{asset(aboutsActive()->image)}}" width="50px" height="150px" alt="" />
                 </div>
+            </div>
+        </div>
+</div>
 
+            <div class="row clearfix" dir="ltr">
                 <!--Content Column-->
-                <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
+                <div class="content-column col-lg-12 col-md-12 col-sm-12"  dir="ltr">
+                    <div class="inner-column" dir="ltr">
                         <!--Sec Title-->
                         <div class="sec-title alternate">
                             <h2  style="font-family: 'Cairo', sans-serif;">{{aboutsActive()->name}}</h2>
                         </div>
-                        <div class="text"  style="font-family: 'Cairo', sans-serif;">
+                        <div class="text"  style="font-family: 'Cairo', sans-serif;" dir="ltr">
                             {!! aboutsActive()->notes !!}
 
                         </div>

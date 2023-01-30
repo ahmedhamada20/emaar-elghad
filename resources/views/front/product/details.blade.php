@@ -21,7 +21,7 @@
     <!--End Page Title-->
 
     <!--Windows Section-->
-    <section class="windows-page-section" dir="ltr">
+    <section class="windows-page-section" style="text-align: end !important;" >
         <div class="auto-container">
             <!--Title Box-->
             <div class="title-box">
@@ -33,7 +33,7 @@
             <div class="row clearfix">
 
                 <!--Content Column-->
-                <div class="content-column col-lg-8 col-md-12 col-sm-12">
+                <div class="content-column col-lg-8 col-md-12 col-sm-12" dir="ltr">
                     <div class="inner-column">
 
                         <div class="text">

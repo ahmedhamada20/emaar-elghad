@@ -26,7 +26,7 @@
 
                 <!--News Block-->
                 @foreach(blogActive() as $blog)
-                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block col-lg-4 col-md-6 col-sm-12" dir="ltr">
                     <div class="inner-box">
                         <div class="image">
                             <a href="{{route('blogsDetails',preg_replace('/\s+/', '-',  $blog->name))}}"  style="font-family: 'Cairo', sans-serif;"><img src="{{asset($blog->image)}}" alt="" /></a>

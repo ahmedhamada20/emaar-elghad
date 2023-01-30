@@ -9,7 +9,7 @@
 
 @section('contact')
     <!--Main Slider-->
-    <section class="main-slider margin-top">
+    <section class="main-slider margin-top" dir="ltr">
 
         <div class="main-slider-carousel owl-carousel owl-theme">
 
@@ -151,7 +151,7 @@
 {{--    <!--End Fun Facts Section-->--}}
 
     <!--About Section-->
-    <section class="about-section">
+    <section class="about-section" dir="ltr">
         <div class="auto-container">
             <div class="row clearfix">
 
@@ -187,7 +187,7 @@
 
 
     <!--Gallery Section-->
-    <section class="gallery-section-two">
+    <section class="gallery-section-two" >
         <div class="auto-container">
             <!--Sec Title-->
             <div class="sec-title centered">
@@ -222,7 +222,7 @@
     <!--End Gallery Section-->
 
     <!--Items Section-->
-    <section class="items-section">
+    <section class="items-section" >
         <div class="auto-container">
             <!--Sec Title-->
             <div class="sec-title alternate">
@@ -239,7 +239,7 @@
                 <!--Product Block-->
 
 @foreach(courseHomePages() as $data)
-                <div class="product-block col-lg-4 col-md-6 col-sm-12">
+                <div class="product-block col-lg-4 col-md-6 col-sm-12" dir="ltr">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
                             <img src="{{asset($data->image)}}" width="150px" height="150px" alt="" />
@@ -265,7 +265,7 @@
     <!--End Items Section-->
 
     <!--Feedback Section Two-->
-    <section class="feedback-section-two">
+    <section class="feedback-section-two" dir="ltr">
         <div class="auto-container">
             <!--Sec Title-->
             <div class="sec-title alternate centered light">
@@ -273,11 +273,11 @@
                     <h2 style="font-family: 'Cairo', sans-serif;">اراء العملاء</h2>
                 </div>
             </div>
-            <div class="single-item-carousel owl-carousel owl-theme">
+            <div class="single-item-carousel owl-carousel owl-theme"  dir="ltr">
 
                 <!--Feedback Block-->
                 @foreach(previousWorkActive() as $row)
-                <div class="feedback-block">
+                <div class="feedback-block"  dir="ltr">
                     <div class="inner-box">
                         <div class="row clearfix">
                             <!--Image Column-->

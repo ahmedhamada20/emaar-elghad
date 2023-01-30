@@ -40,7 +40,7 @@
 
                                 @foreach($data as $row)
                                 <!--Window Block Two-->
-                                <div class="window-block-two col-lg-6 col-md-6 col-sm-12">
+                                <div class="window-block-two col-lg-6 col-md-6 col-sm-12" dir="ltr">
                                     <div class="inner-box">
                                         <img src="{{asset($row->image)}}" alt=""  />
                                         <div class="lower-content">

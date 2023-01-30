@@ -20,25 +20,25 @@
     <!--End Page Title-->
 
     <!--Sidebar Page Container-->
-    <div class="sidebar-page-container" style="direction: ltr !important;">
+    <div class="sidebar-page-container" style="text-align: end !important;">
         <div class="auto-container">
             <div class="row clearfix">
 
                 <!--Content Side-->
-                <div class="content-side col-lg-9 col-md-12 col-sm-12">
+                <div class="content-side col-lg-9 col-md-12 col-sm-12" style="text-align: end !important;" dir="ltr">
                     <div class="blog-single">
                         <div class="inner-box">
                             <div class="upper-box">
                                 <!--Author-->
 
-                                <h2  style="font-family: 'Cairo', sans-serif;">{{$data->name}}</h2>
-                                <ul class="post-date">
+                                <h2  style="font-family: 'Cairo', sans-serif; text-align: end !important; " dir="ltr">{{$data->name}}</h2>
+                                <ul class="post-date" dir="ltr">
                                     <li>{{ $data->created_at->diffForHumans(['parts'=>3,'join'=>', '])}}</li>
 
                                 </ul>
                             </div>
                             <div class="text">
-                                <p  style="font-family: 'Cairo', sans-serif;">
+                                <p  style="font-family: 'Cairo', sans-serif;" dir="ltr">
                                     {{$data->notes}}
                                 </p>
                                 <div class="image">
